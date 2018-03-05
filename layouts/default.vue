@@ -17,7 +17,7 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 0;
 }
 

@@ -1,7 +1,7 @@
 <template>
   <section class="container">
-    <div>
-      <p>{{ randomePhrase.content }}</p>
+    <div class="phraseContainer">
+      <p class="phrase">{{ randomePhrase.content }}</p>
       <p><button @click="change_onClick">Change!</button></p>
     </div>
   </section>
@@ -75,5 +75,18 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.phraseContainer {
+  display: flex;
+  align-items: center;
+}
+
+.phrase {
+  border: 1px solid skyblue;
+  margin-right: 1em;
+  min-height: 4em;
+  padding: 1em;
+  width: 400px;
 }
 </style>
