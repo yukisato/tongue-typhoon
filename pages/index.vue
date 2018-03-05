@@ -2,6 +2,7 @@
   <section class="container">
     <div>
       <p>{{ randomePhrase.content }}</p>
+      <p><button @click="change_onClick">Change!</button></p>
     </div>
   </section>
 </template>
@@ -31,7 +32,17 @@ export default {
   },
 
   mounted() {
-    this.$store.dispatch('phrases/updateRandomPhrase')
+    this.updateRandomPhrase()
+  },
+
+  methods: {
+    updateRandomPhrase() {
+      this.$store.dispatch('phrases/updateRandomPhrase')
+    },
+
+    change_onClick(event) {
+      this.updateRandomPhrase()
+    }
   }
 }
 </script>
