@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <p>{{ randomePhrase }}</p>
+      <p>{{ randomePhrase.content }}</p>
     </div>
   </section>
 </template>
@@ -14,15 +14,24 @@ export default {
     AppLogo
   },
 
+  data() {
+    return {
+    }
+  },
+
   computed: {
     phrase() {
       const phrase = this.$store.getters['phrases/find'](rand)
       return phrase ? phrase.content : ''
     },
     randomePhrase() {
-      const phrase = this.$store.getters['phrases/random']
-      return phrase ? phrase.content : ''
+      // return {}
+      return this.$store.state.phrases.randomPhrase
     }
+  },
+
+  mounted() {
+    this.$store.dispatch('phrases/updateRandomPhrase')
   }
 }
 </script>
