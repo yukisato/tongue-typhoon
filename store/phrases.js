@@ -5,5 +5,9 @@ export const getters = {
     return (id) => {
       return source.find(d => d.id === id)
     }
+  },
+  random() {
+    const index = Math.floor(Math.random() * source.length)
+    return source[index]
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <p>{{phrase}}</p>
+      <p>{{ randomePhrase }}</p>
     </div>
   </section>
 </template>
@@ -16,7 +16,11 @@ export default {
 
   computed: {
     phrase() {
-      const phrase = this.$store.getters['phrases/find'](1)
+      const phrase = this.$store.getters['phrases/find'](rand)
+      return phrase ? phrase.content : ''
+    },
+    randomePhrase() {
+      const phrase = this.$store.getters['phrases/random']
       return phrase ? phrase.content : ''
     }
   }
