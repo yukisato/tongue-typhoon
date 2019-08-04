@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tongue-typhoon/static/css/main.19393e92.chunk.css",
+    "main.js": "/tongue-typhoon/static/js/main.e0914ac1.chunk.js",
+    "main.js.map": "/tongue-typhoon/static/js/main.e0914ac1.chunk.js.map",
+    "runtime~main.js": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js",
+    "runtime~main.js.map": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js.map",
+    "static/js/2.b41502e9.chunk.js": "/tongue-typhoon/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/tongue-typhoon/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/tongue-typhoon/index.html",
+    "precache-manifest.ee1a27982850c1bae1c8b4a295b29765.js": "/tongue-typhoon/precache-manifest.ee1a27982850c1bae1c8b4a295b29765.js",
+    "service-worker.js": "/tongue-typhoon/service-worker.js",
+    "static/css/main.19393e92.chunk.css.map": "/tongue-typhoon/static/css/main.19393e92.chunk.css.map",
+    "static/media/logo.svg": "/tongue-typhoon/static/media/logo.5d5d9eef.svg"
+  }
+}
