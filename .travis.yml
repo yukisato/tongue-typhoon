@@ -1,4 +1,5 @@
 deploy:
+  local_dir: build/
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
