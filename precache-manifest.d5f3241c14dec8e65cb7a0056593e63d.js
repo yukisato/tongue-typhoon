@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fec2e1483ded472b49ddfdfda5df89f4",
+    "revision": "69a2601cd067349b9f6cdcc43a4954db",
     "url": "/tongue-typhoon/index.html"
   },
   {
-    "revision": "15470eb208bd93d8a9a9",
+    "revision": "37a5e8404593983e607a",
     "url": "/tongue-typhoon/static/css/main.19393e92.chunk.css"
   },
   {
-    "revision": "00063f64c68494124901",
-    "url": "/tongue-typhoon/static/js/2.49afd6f5.chunk.js"
+    "revision": "7fc30ce28cf17f1e9778",
+    "url": "/tongue-typhoon/static/js/2.50f65320.chunk.js"
   },
   {
-    "revision": "15470eb208bd93d8a9a9",
-    "url": "/tongue-typhoon/static/js/main.efb4bd21.chunk.js"
+    "revision": "37a5e8404593983e607a",
+    "url": "/tongue-typhoon/static/js/main.365eb948.chunk.js"
   },
   {
     "revision": "4a76b12537ca6af4b122",

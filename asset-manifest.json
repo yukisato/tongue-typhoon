@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tongue-typhoon/static/css/main.19393e92.chunk.css",
-    "main.js": "/tongue-typhoon/static/js/main.efb4bd21.chunk.js",
-    "main.js.map": "/tongue-typhoon/static/js/main.efb4bd21.chunk.js.map",
+    "main.js": "/tongue-typhoon/static/js/main.365eb948.chunk.js",
+    "main.js.map": "/tongue-typhoon/static/js/main.365eb948.chunk.js.map",
     "runtime~main.js": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js",
     "runtime~main.js.map": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js.map",
-    "static/js/2.49afd6f5.chunk.js": "/tongue-typhoon/static/js/2.49afd6f5.chunk.js",
-    "static/js/2.49afd6f5.chunk.js.map": "/tongue-typhoon/static/js/2.49afd6f5.chunk.js.map",
+    "static/js/2.50f65320.chunk.js": "/tongue-typhoon/static/js/2.50f65320.chunk.js",
+    "static/js/2.50f65320.chunk.js.map": "/tongue-typhoon/static/js/2.50f65320.chunk.js.map",
     "index.html": "/tongue-typhoon/index.html",
-    "precache-manifest.2847f03e41b7a507aabe3657898c7581.js": "/tongue-typhoon/precache-manifest.2847f03e41b7a507aabe3657898c7581.js",
+    "precache-manifest.d5f3241c14dec8e65cb7a0056593e63d.js": "/tongue-typhoon/precache-manifest.d5f3241c14dec8e65cb7a0056593e63d.js",
     "service-worker.js": "/tongue-typhoon/service-worker.js",
     "static/css/main.19393e92.chunk.css.map": "/tongue-typhoon/static/css/main.19393e92.chunk.css.map"
   }
