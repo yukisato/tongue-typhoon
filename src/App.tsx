@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import tongueTwisters from './tongue-source.json';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Tongue Typhoon tukuritai na-
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component<{}, {selectedTwister: string}> {
+  constructor(props: any) {
+    super(props);
+
+    this.state = {
+      selectedTwister: '',
+    }
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+  
+  handleClick() {
+    let randomIndex = Math.floor(Math.random() * tongueTwisters.length + 1);
+    this.setState({selectedTwister: tongueTwisters[randomIndex].content});
+  }
+
+  render() {
+      return (
+      <div className="App">
+        <header className="App-header">
+          <p>
+            { this.state.selectedTwister }
+          </p>
+          <button onClick={ this.handleClick }>Show a tongue twister</button>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
