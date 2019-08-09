@@ -1,15 +1,17 @@
 import React, { ReactElement } from 'react';
+import { Card, Button } from 'react-bootstrap';
+
 interface Props {
     tt?: any
 }
-const Card: React.FC<Props> = ({ tt }): ReactElement => {
+const CardComponent: React.FC<Props> = ({ tt }): ReactElement => {
     return (
-        <div>
-            <p>
-                {tt.content}
-            </p>
-        </div>
+        <Card>
+            <Card.Title>#{tt.id}</Card.Title>
+            <Card.Text>{tt.content}</Card.Text>
+            <Button variant="primary">Like</Button>
+        </Card>
     )
 }
 
-export default Card;
+export default CardComponent;
