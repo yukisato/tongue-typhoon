@@ -1,4 +1,5 @@
 import React, { ReactElement, useState } from 'react';
+import CardList from './components/card-list/card-list.component';
 import './App.css';
 import tongueTwisters from './tongue-source.json';
 
@@ -11,12 +12,14 @@ const App: React.FC = (): ReactElement => {
   }
 
   return (
-    <div className="App">
+    <div className="TongueTyphoon">
       <header className="App-header">
         <p>
           { selectedTwister }
         </p>
         <button onClick={ handleClick }>Show a tongue twister</button>
+        <hr />
+        <CardList />
       </header>
     </div>
   );
