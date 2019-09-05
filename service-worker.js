@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tongue-typhoon/precache-manifest.93da9ef1cc0a9139ea1ac929c40d022c.js"
+  "/tongue-typhoon/precache-manifest.ffba5e55d5e44313ecc626ab46143ef8.js"
 );
 
 self.addEventListener('message', (event) => {

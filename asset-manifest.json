@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/tongue-typhoon/static/css/main.19393e92.chunk.css",
-    "main.js": "/tongue-typhoon/static/js/main.a25c2afd.chunk.js",
-    "main.js.map": "/tongue-typhoon/static/js/main.a25c2afd.chunk.js.map",
+    "main.css": "/tongue-typhoon/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/tongue-typhoon/static/js/main.f7f428af.chunk.js",
+    "main.js.map": "/tongue-typhoon/static/js/main.f7f428af.chunk.js.map",
     "runtime~main.js": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js",
     "runtime~main.js.map": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js.map",
-    "static/js/2.69ee88ea.chunk.js": "/tongue-typhoon/static/js/2.69ee88ea.chunk.js",
-    "static/js/2.69ee88ea.chunk.js.map": "/tongue-typhoon/static/js/2.69ee88ea.chunk.js.map",
+    "static/css/2.c293e0f0.chunk.css": "/tongue-typhoon/static/css/2.c293e0f0.chunk.css",
+    "static/js/2.5a805ede.chunk.js": "/tongue-typhoon/static/js/2.5a805ede.chunk.js",
+    "static/js/2.5a805ede.chunk.js.map": "/tongue-typhoon/static/js/2.5a805ede.chunk.js.map",
     "index.html": "/tongue-typhoon/index.html",
-    "precache-manifest.93da9ef1cc0a9139ea1ac929c40d022c.js": "/tongue-typhoon/precache-manifest.93da9ef1cc0a9139ea1ac929c40d022c.js",
+    "precache-manifest.ffba5e55d5e44313ecc626ab46143ef8.js": "/tongue-typhoon/precache-manifest.ffba5e55d5e44313ecc626ab46143ef8.js",
     "service-worker.js": "/tongue-typhoon/service-worker.js",
-    "static/css/main.19393e92.chunk.css.map": "/tongue-typhoon/static/css/main.19393e92.chunk.css.map"
+    "static/css/2.c293e0f0.chunk.css.map": "/tongue-typhoon/static/css/2.c293e0f0.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/tongue-typhoon/static/css/main.5ecd60fb.chunk.css.map",
+    "static/media/index.css": "/tongue-typhoon/static/media/roboto-latin-900italic.ebf6d164.woff2"
   }
 }
