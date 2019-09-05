@@ -1,16 +1,14 @@
 import React, { ReactElement } from 'react';
-import { Card, Button } from 'react-bootstrap';
+import Button from '@material-ui/core/Button';
 
 interface Props {
     tt?: any
 }
 const CardComponent: React.FC<Props> = ({ tt }): ReactElement => {
     return (
-        <Card>
-            <Card.Title>#{tt.id}</Card.Title>
-            <Card.Text>{tt.content}</Card.Text>
-            <Button variant="primary">Like</Button>
-        </Card>
+        <Button variant="contained" color="primary">
+            Hello World
+        </Button>
     )
 }
 

@@ -1,7 +1,8 @@
 import React, { ReactElement, useState } from 'react';
 import CardList from './components/card-list/card-list.component';
-import './App.css';
+import 'typeface-roboto';
 import tongueTwisters from './tongue-source.json';
+import { Typography } from '@material-ui/core';
 
 const App: React.FC = (): ReactElement => {
   const [selectedTwister, setSelectedTwister] = useState('');
@@ -14,6 +15,10 @@ const App: React.FC = (): ReactElement => {
   return (
     <div className="TongueTyphoon">
       <header className="App-header">
+        {/* We already have an h1 in the page, let's not duplicate it. */}
+      <Typography variant="h1" component="h2">
+        h1. Heading
+      </Typography>
         <p>
           { selectedTwister }
         </p>
