@@ -1,18 +1,26 @@
 {
   "files": {
     "main.css": "/tongue-typhoon/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/tongue-typhoon/static/js/main.f7f428af.chunk.js",
-    "main.js.map": "/tongue-typhoon/static/js/main.f7f428af.chunk.js.map",
-    "runtime~main.js": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js",
-    "runtime~main.js.map": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js.map",
-    "static/css/2.c293e0f0.chunk.css": "/tongue-typhoon/static/css/2.c293e0f0.chunk.css",
-    "static/js/2.5a805ede.chunk.js": "/tongue-typhoon/static/js/2.5a805ede.chunk.js",
-    "static/js/2.5a805ede.chunk.js.map": "/tongue-typhoon/static/js/2.5a805ede.chunk.js.map",
+    "main.js": "/tongue-typhoon/static/js/main.5b6e1459.chunk.js",
+    "main.js.map": "/tongue-typhoon/static/js/main.5b6e1459.chunk.js.map",
+    "runtime-main.js": "/tongue-typhoon/static/js/runtime-main.7701a3f9.js",
+    "runtime-main.js.map": "/tongue-typhoon/static/js/runtime-main.7701a3f9.js.map",
+    "static/css/2.81d6f24a.chunk.css": "/tongue-typhoon/static/css/2.81d6f24a.chunk.css",
+    "static/js/2.e623e1d6.chunk.js": "/tongue-typhoon/static/js/2.e623e1d6.chunk.js",
+    "static/js/2.e623e1d6.chunk.js.map": "/tongue-typhoon/static/js/2.e623e1d6.chunk.js.map",
     "index.html": "/tongue-typhoon/index.html",
-    "precache-manifest.ffba5e55d5e44313ecc626ab46143ef8.js": "/tongue-typhoon/precache-manifest.ffba5e55d5e44313ecc626ab46143ef8.js",
+    "precache-manifest.ff296a467092bf96a033cadee59e6566.js": "/tongue-typhoon/precache-manifest.ff296a467092bf96a033cadee59e6566.js",
     "service-worker.js": "/tongue-typhoon/service-worker.js",
-    "static/css/2.c293e0f0.chunk.css.map": "/tongue-typhoon/static/css/2.c293e0f0.chunk.css.map",
+    "static/css/2.81d6f24a.chunk.css.map": "/tongue-typhoon/static/css/2.81d6f24a.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/tongue-typhoon/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.e623e1d6.chunk.js.LICENSE.txt": "/tongue-typhoon/static/js/2.e623e1d6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tongue-typhoon/static/media/roboto-latin-900italic.ebf6d164.woff2"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7701a3f9.js",
+    "static/css/2.81d6f24a.chunk.css",
+    "static/js/2.e623e1d6.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.5b6e1459.chunk.js"
+  ]
 }

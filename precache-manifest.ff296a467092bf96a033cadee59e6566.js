@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d55d14aa716a3e681fb3b686ed95af50",
+    "revision": "e56d73c6e6628e48d62cb68be77c035f",
     "url": "/tongue-typhoon/index.html"
   },
   {
-    "revision": "73cf9f0614a63eb37f99",
-    "url": "/tongue-typhoon/static/css/2.c293e0f0.chunk.css"
+    "revision": "59587796535b6365a319",
+    "url": "/tongue-typhoon/static/css/2.81d6f24a.chunk.css"
   },
   {
-    "revision": "ec564cbe573f804e2964",
+    "revision": "be8197888bba3ddd7eaf",
     "url": "/tongue-typhoon/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "73cf9f0614a63eb37f99",
-    "url": "/tongue-typhoon/static/js/2.5a805ede.chunk.js"
+    "revision": "59587796535b6365a319",
+    "url": "/tongue-typhoon/static/js/2.e623e1d6.chunk.js"
   },
   {
-    "revision": "ec564cbe573f804e2964",
-    "url": "/tongue-typhoon/static/js/main.f7f428af.chunk.js"
+    "revision": "0749163b59fbee32225059cb60c18af6",
+    "url": "/tongue-typhoon/static/js/2.e623e1d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a76b12537ca6af4b122",
-    "url": "/tongue-typhoon/static/js/runtime~main.f3b3f2cc.js"
+    "revision": "be8197888bba3ddd7eaf",
+    "url": "/tongue-typhoon/static/js/main.5b6e1459.chunk.js"
+  },
+  {
+    "revision": "2014187e67aeb7511155",
+    "url": "/tongue-typhoon/static/js/runtime-main.7701a3f9.js"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
